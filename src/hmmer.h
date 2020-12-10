@@ -24,6 +24,9 @@
  * specific to the acceleration layer; in particular, the P7_OPROFILE
  * structure for an optimized profile.
  */
+#ifdef __cplusplus
+extern "C" {
+#endif
 #ifndef P7_HMMERH_INCLUDED
 #define P7_HMMERH_INCLUDED
 #include "p7_config.h"
@@ -1813,3 +1816,6 @@ extern int fm_getOccCountLT   (const FM_DATA *fm, const FM_CFG *cfg, int pos, ui
 #endif /*P7_HMMERH_INCLUDED*/
 
 
+#ifdef __cplusplus
+}
+#endif
