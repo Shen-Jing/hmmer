@@ -10,7 +10,7 @@
 #include "mpi.h"
 #endif
 
-#include "easel.h"
+#include "easel.hpp"
 #include "esl_alphabet.h"
 #include "esl_getopts.h"
 #include "esl_mpi.h"
