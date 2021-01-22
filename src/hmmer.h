@@ -42,7 +42,7 @@ extern "C" {
 #include <pthread.h>
 #endif
 
-#include "easel.h"
+#include "easel.hpp"
 #include "esl_alphabet.h"	/* ESL_DSQ, ESL_ALPHABET */
 #include "esl_dmatrix.h"	/* ESL_DMATRIX           */
 #include "esl_getopts.h"	/* ESL_GETOPTS           */
